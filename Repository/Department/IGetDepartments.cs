@@ -1,4 +1,4 @@
-﻿using DomainModel;
+﻿using DataEntity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public interface IuserOperation
+    public interface IGetDepartments
     {
-        public Task<UserModel> Validate(string username, string password);
+        Task<IEnumerable<DepartmentDTO>> ExecuteAsync();
     }
 }

@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="mydata\departmentData.json" />
     <Content Remove="mydata\employeeData.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="mydata\departmentData.json" />
     <None Include="mydata\employeeData.json" />
   </ItemGroup>
 

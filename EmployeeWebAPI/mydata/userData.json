@@ -1,19 +1,24 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": 1,
       "username": "adminuser",
       "password": "admin"
     },
     {
-      "id": "2",
+      "id": 2,
       "username": "demouser",
-      "password": "demo"
+      "password": "Demo@123"
     },
     {
-      "id": "3",
+      "id": 3,
       "username": "agentuser",
-      "password": "agent"
+      "password": "Agent@123"
+    },
+    {
+      "id": 4,
+      "username": "admin",
+      "password": "Test@123"
     }
   ]
 }

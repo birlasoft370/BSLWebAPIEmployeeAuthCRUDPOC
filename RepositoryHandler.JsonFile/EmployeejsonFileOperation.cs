@@ -17,7 +17,7 @@ namespace RepositoryHandler.JsonFile
                 string json = r.ReadToEnd();
 
                 EmployeeDTOJSonModel item = JsonConvert.DeserializeObject<EmployeeDTOJSonModel>(json);
-                employee.Id = item.Employee.Count + 1;
+                employee.Id = item.Employee.Max(E => E.Id) + 1;
 
                 Employee e = new Employee()
                 {
@@ -48,7 +48,7 @@ namespace RepositoryHandler.JsonFile
             string jSONString = string.Empty;
             using (StreamReader r = new StreamReader(jsonFile))
             {
-                string json = r.ReadToEnd();
+                string json =await r.ReadToEndAsync();
                 EmployeeDTOJSonModel item = JsonConvert.DeserializeObject<EmployeeDTOJSonModel>(json);
                 var employeeToDeleted = item.Employee.FirstOrDefault(obj => obj.Id == employeeId);
 

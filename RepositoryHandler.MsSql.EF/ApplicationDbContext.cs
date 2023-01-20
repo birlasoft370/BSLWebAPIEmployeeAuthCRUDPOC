@@ -1,11 +1,6 @@
 ﻿using DataEntity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RepositoryHandler.MsSql.EF
 {
@@ -26,6 +21,7 @@ namespace RepositoryHandler.MsSql.EF
 
         public DbSet<EmployeeDTO> Employee { get; set; }
         public DbSet<UserDTO> Users { get; set; }
+        public DbSet<DepartmentDTO> Department { get; set; }
 
     }
 }

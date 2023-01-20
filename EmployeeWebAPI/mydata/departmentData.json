@@ -1,0 +1,40 @@
+{
+  "department": [
+    {
+      "DepartmentId": 1,
+      "DepartmentName": "HR"
+    },
+    {
+      "DepartmentId": 3,
+      "DepartmentName": "EEE"
+    },
+    {
+      "DepartmentId": 3,
+      "DepartmentName": "DEV"
+    },
+    {
+      "DepartmentId": 4,
+      "DepartmentName": "ECE"
+    },
+    {
+      "DepartmentId": 5,
+      "DepartmentName": "CSE"
+    },
+    {
+      "DepartmentId": 7,
+      "DepartmentName": "Mech"
+    },
+    {
+      "DepartmentId": 9,
+      "DepartmentName": "IT"
+    },
+    {
+      "DepartmentId": 10,
+      "DepartmentName": "civil"
+    },
+    {
+      "DepartmentId": 11,
+      "DepartmentName": "Test Department 133"
+    }
+  ]
+}

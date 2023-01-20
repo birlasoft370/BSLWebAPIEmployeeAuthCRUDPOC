@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DomainModel.User;
 
-namespace DomainModel
+namespace Repository
 {
-    public class ValidateUserResponse
+    public interface IDeleteUser
     {
-        public UserModel User { get; set; }
+        Task ExecuteAsync(int id);
     }
 }

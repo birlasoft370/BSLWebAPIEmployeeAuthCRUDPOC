@@ -1,4 +1,4 @@
-﻿using EmployeeWebAPI.Models;
+﻿using DomainModel.Department;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeWebAPI.Models
@@ -20,6 +20,8 @@ namespace EmployeeWebAPI.Models
 
         public DbSet<Employee> Employees { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<DepartmentModel> Department { get; set; }
+        
 
         //protected AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         //{

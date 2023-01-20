@@ -34,19 +34,51 @@
     },
     {
       "id": 6,
-      "name": "name update",
-      "address": "Tvl-1",
-      "age": 40,
-      "department": "HR",
-      "salary": 40000.0
-    },
-    {
-      "id": 6,
       "name": "after login",
       "address": "Address",
       "age": 35,
       "department": "HR",
       "salary": 35000.0
+    },
+    {
+      "id": 7,
+      "name": "UI Update",
+      "address": "Addrsss12345",
+      "age": 34,
+      "department": "IT",
+      "salary": 12345.0
+    },
+    {
+      "id": 8,
+      "name": "test",
+      "address": "Address",
+      "age": 35,
+      "department": "HR",
+      "salary": 2345.0
+    },
+    {
+      "id": 9,
+      "name": "test dept",
+      "address": "Addrwes",
+      "age": 23,
+      "department": "EEE",
+      "salary": 213.0
+    },
+    {
+      "id": 10,
+      "name": "TEST 123",
+      "address": "Address",
+      "age": 23,
+      "department": "DEV",
+      "salary": 3200.0
+    },
+    {
+      "id": 11,
+      "name": "Ajmal",
+      "address": "Address",
+      "age": 45,
+      "department": "Mech",
+      "salary": 242424.0
     }
   ]
 }

@@ -16,7 +16,7 @@ namespace EmployeeWebAPI.Controllers
 
         [HttpPost]
         [Route("api/v1/[controller]/ValidateUser")]
-        public async Task<IActionResult> AddEmployee([FromBody] ValidateUserRequest request)
+        public async Task<IActionResult> ValidateUser([FromBody] ValidateUserRequest request)
         {
             var result = await mediator.Send(request).ConfigureAwait(false);
 

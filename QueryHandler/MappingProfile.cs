@@ -1,11 +1,8 @@
 ﻿using AutoMapper;
 using DataEntity;
 using DomainModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DomainModel.Department;
+using DomainModel.User;
 
 namespace QueryHandler
 {
@@ -14,6 +11,8 @@ namespace QueryHandler
         public MappingProfile()
         {
             CreateMap<EmployeeModel, EmployeeDTO>().ReverseMap();
+            CreateMap<DepartmentModel, DepartmentDTO>().ReverseMap();
+            CreateMap<UserModel, UserDTO>().ReverseMap();
         }
     }
 }
